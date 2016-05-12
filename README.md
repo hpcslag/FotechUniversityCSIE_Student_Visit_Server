@@ -8,3 +8,5 @@ original client project: https://github.com/hpcslag/FotechUniversityCSIE_Student
 
 #run
 just run in jar command.
+
+PLEASE, Create File "StudentData.txt" in C:\ 
