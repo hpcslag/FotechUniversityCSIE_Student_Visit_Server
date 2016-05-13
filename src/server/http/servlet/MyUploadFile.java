@@ -29,10 +29,12 @@ public class MyUploadFile extends HttpServlet {
             System.out.println(req.getParameter("PhoneNumber"));
             System.out.println(req.getParameter("SchoolName"));
             System.out.println(req.getParameter("ClassName"));
+            System.out.println(req.getParameter("SocialID"));
             
             String STUDENT_DATA = "{\"FullName\":\""+req.getParameter("FullName")+"\","+
                                   "\"PhoneNumber\":\""+req.getParameter("PhoneNumber")+"\","+
                                   "\"SchoolName\":\""+req.getParameter("SchoolName")+"\","+
+                                  "\"SocialID\":\""+req.getParameter("SocialID")+"\","+
                                   "\"ClassName\":\""+req.getParameter("ClassName")+"\"},";
             
             for (Part p : req.getParts()) {                
